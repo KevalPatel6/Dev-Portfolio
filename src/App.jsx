@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import Main from './components/Main'
@@ -10,13 +11,13 @@ function App() {
 
   return (
     <>
-     <header>
+     <header className = 'header-container'>
       <Header/>
      </header>
-    <main>
-      <Main/>
+    <main className = 'main-content'>
+      <Outlet/>
     </main>
-    <footer>
+    <footer className='footer-container'>
       <Footer/>
     </footer>
 

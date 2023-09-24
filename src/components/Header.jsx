@@ -7,14 +7,29 @@ export default function Header(){
     return (
         <>
         <nav>
-            <ul>
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-                <li>Resume</li>
+            <ul className = 'nav-tabs'>
+                <li className = 'nav-item'>
+                    <Link to='/About'>
+                    About Me
+                    </Link>
+                    </li>
+                <li className = 'nav-item'>
+                    <Link to='/Portfolio'>
+                    Portfolio
+                    </Link>
+                    </li>
+                <li className = 'nav-item'>
+                    <Link to='/Contact'>
+                    Contact
+                    </Link>
+                    </li>
+                <li className = 'nav-item'>
+                    <Link to='/Resume'>
+                    Resume
+                    </Link>
+                    </li>
             </ul>
         </nav>
         </>
-
     )
     }
