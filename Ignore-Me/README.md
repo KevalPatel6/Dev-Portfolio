@@ -21,11 +21,11 @@ SO THAT I can assess whether they're a good candidate for an open position
 ```md
 GIVEN a single-page application portfolio for a web developer
 
---------To Do--------
+--------Done--------
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
 
---------To Do--------
+--------Done--------
 WHEN I view the header
 THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 

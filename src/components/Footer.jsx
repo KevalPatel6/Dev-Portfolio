@@ -1,9 +1,9 @@
 import {useState, useEffect} from 'react'
 import {useParams, Link} from 'react-router-dom'
+import '../styles/Pages.css'
 
 export default function Footer(){
     
-
     return (
         <>
         <div className = 'footer-container'>
@@ -11,6 +11,5 @@ export default function Footer(){
             <h3></h3>
         </div>
         </>
-
     )
 }
