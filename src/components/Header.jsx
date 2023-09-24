@@ -5,8 +5,12 @@ export default function Header(){
 
 
     return (
-        <>
-        <nav>
+        <nav className='nav-bar'>
+            <h2 className='nav-tabs'>
+                <Link to='/'>
+                #Keval Patel
+                </Link>
+                </h2>
             <ul className = 'nav-tabs'>
                 <li className = 'nav-item'>
                     <Link to='/About'>
@@ -30,6 +34,5 @@ export default function Header(){
                     </li>
             </ul>
         </nav>
-        </>
     )
     }

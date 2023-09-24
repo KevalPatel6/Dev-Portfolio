@@ -19,7 +19,6 @@ function App() {
     <footer className='footer-container'>
       <Footer/>
     </footer>
-
     </>
   )
 }
