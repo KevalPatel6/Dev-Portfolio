@@ -1,6 +1,11 @@
-import { Link } from 'react-router-dom'
-
+import {useState, useEffect} from 'react'
+import {useParams, Link} from 'react-router-dom'
 
 export default function Main(){
-    return;
+
+
+    return (
+        <></>
+
+    )
 }
