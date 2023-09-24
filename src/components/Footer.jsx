@@ -5,7 +5,12 @@ export default function Footer(){
 
 
     return (
-        <></>
+        <>
+        <div className = 'footer-container'>
+            <h3>Github</h3>
+            <h3></h3>
+        </div>
+        </>
 
     )
 }
