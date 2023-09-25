@@ -1,6 +1,11 @@
 .home-container{
    text-align: center;
+   display: flex;
+   flex-direction: column;
+}
 
+.home-content{
+    align-items: center;
 }
 
 footer {
