@@ -38,3 +38,11 @@ main{
   text-shadow: 4px;
   background-color: yellow;
 }
+
+.main-content{
+  text-align: center;
+}
+
+#message{
+  font-size: 12pt;
+}

@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
-import '../styles/App.css'
+import '../../../styles/App.css'
 
-export default function Header(){
+export default function Nav(){
     const currentPage = useLocation().pathname
     console.log(currentPage)
 

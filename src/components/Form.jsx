@@ -6,6 +6,7 @@ const [name, setName] = useState('')
 const [company, setCompany] = useState('')
 const [email, setEmail] = useState('')
 const [phone, setPhone] = useState('')
+const [message, setMessage] = useState('')
 
 function onSubmit(){
     event.preventDefault()
@@ -31,6 +32,9 @@ return (
         <label for="company">Phone:</label>
         <br />
         <input type="tel" id="phone" name="phone" placeholder='Enter Phone Number' value={phone} onChange={(event)=> setPhone (event.target.value)}/>
+        <br/>
+        <br />
+        <textarea type="text" id="message" name="message" placeholder='Leave a Message' value={message} rows='10' cols='20' onChange={(event)=> setMessage (event.target.value)}/>
         <br/>
         <button>Submit</button>
     </form>

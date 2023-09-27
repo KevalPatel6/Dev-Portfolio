@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import './styles/App.css'
-import Nav from './components/Nav'
+import Header from './components/Header/Header'
 import Footer from './components/Footer'
 
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
      <header className = 'header-container'>
-      <Nav/>
+      <Header/>
      </header>
     <main className = 'main-content'>
       <Outlet/>

@@ -37,7 +37,7 @@ THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, an
 WHEN I click on a navigation title
 THEN the browser URL changes and I am presented with the corresponding section below the navigation and that title is highlighted
 
---------To Do--------
+--------Done--------
 WHEN I load the portfolio the first time
 THEN the About Me title and section are selected by default
 

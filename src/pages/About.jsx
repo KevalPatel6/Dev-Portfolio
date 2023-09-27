@@ -1,8 +1,11 @@
+import '../styles/AboutMe.css'
+
 export default function About(){
     
 
     return (
         <div className = 'about-container'>
+            <img src=''/>
             <h1>About Me</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor adipisci minus exercitationem dolorum beatae, a praesentium perferendis repellat! Veniam corrupti a necessitatibus nisi suscipit quaerat, eaque ratione neque aliquid sint!
