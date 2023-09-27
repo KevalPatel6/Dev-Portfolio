@@ -1,4 +1,28 @@
-.about-contatiner{
+.about-container{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    width: 1000px;
+    height: 500px;
+}
+
+#profile-pic{
+    align-self: center;
+}
+
+img {
+    height: 16rem; 
+}
+
+.text-container{
+    align-self: center;
+}
+
+.text-flex{
+    margin: 1rem;
+}
+
+#text {
+text-align: justify;
+margin-left: 50px;
 }

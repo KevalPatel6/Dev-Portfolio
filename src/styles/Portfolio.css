@@ -1,0 +1,51 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;   
+    column-gap: 20rem;
+    row-gap: 5rem;
+    margin-top: 100px;
+
+}
+
+img {
+    width: 17.8rem;
+    height: 10rem;
+    border-color: black !important;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.card:hover{
+    transform: scale(1.2);
+
+}
+
+.card{
+    background-color: pink;
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 13px 10px 10px 10px;
+    height:400px;
+
+}
+
+h2{
+
+    height: 50px;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.app-btn{
+    margin-right: 14px;   
+}
+
+

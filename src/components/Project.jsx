@@ -1,17 +1,28 @@
+import '../styles/Portfolio.css'
 
+export default function Project({ projects }) {
+    return <>
 
-export default function Project() {
-    <div id="project-container">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-        </div>
-
-    </div>
-
-
+        {projects.map((project) => {
+            return(
+                <div key={project.id} id="project-container" className='grid-item'>
+                    <div className="card" style={{ width: "18rem" }}>
+                        <a href={project.deployedApp}>
+                            <img className="card-img" src={project.imgSrc} alt={project.imgAlt} />
+                        </a>
+                        <div className="card-body">
+                            <h2 className="card-title">{project.title}</h2>
+                            <p className="card-text">{project.description}</p>
+                            <a href={project.deployedApp}>
+                                <button className="app-btn">Application</button>
+                            </a>
+                            <a href={project.github}>
+                                <button className='git-btn'>Github Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div >
+            )
+            })}
+    </>
 }
