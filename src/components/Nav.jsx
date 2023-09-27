@@ -7,14 +7,14 @@ export default function Header(){
 
     return (
         <nav className='nav-bar'>
-            <h2 className={currentPage ==='/' ? 'nav-item active' : 'nav-item'}>
-                <Link to='/'>
+            <h2 className={currentPage ==='*/' ? 'nav-item active' : 'nav-item'}>
+                <Link to='/*'>
                 #Keval Patel
                 </Link>
                 </h2>
             <ul className = 'nav-tabs'>
-                <li className ={currentPage ==='/About' ? 'nav-item active' : 'nav-item'}>
-                    <Link to='/About'>
+                <li className ={currentPage ==='/' ? 'nav-item active' : 'nav-item'}>
+                    <Link to='/'>
                     About Me
                     </Link>
                     </li>
