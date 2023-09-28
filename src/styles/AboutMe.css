@@ -11,6 +11,7 @@
 
 #profile-pic{
     height: 16rem;
+    border-radius: 50%;
 }
 
 .text-container{

@@ -9,7 +9,10 @@ export default function Footer(){
         <div className = 'footer-container'>
             <h3 id='github'><a href = 'https://github.com/KevalPatel6'>Github</a></h3>
             <h3 id='stack-overflow'><a href = 'https://stackoverflow.com/users/22648001/kevalp6?tab=profile'>Stack Overflow</a></h3>
+            <h3 id='linkedIn'><a href = 'https://www.linkedin.com/in/keval-patel-65bbb7282/'>LinkedIn</a></h3>
         </div>
+
+        
         </>
     )
 }
