@@ -44,7 +44,7 @@ import '../styles/Portfolio.css'
             github: 'https://github.com/KevalPatel6/Work-Day-Scheduler',
             deployedApp: 'https://kevalpatel6.github.io/Work-Day-Scheduler/',
             description: 'A web application that tracks the hours of a typical workday and allows users to input events, meetings, or reminders',
-            imgSrc: '/Work-Day-Scheduler.PNG',
+            imgSrc: '/assets/Work-Day-Scheduler.PNG',
             imgAlt: 'Website of a Work-Day Schedule' 
         },
         {

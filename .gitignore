@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 
 /Ignore-Me
+
+/Pro-README-Generator
+
+.vscode/
+
+vscode
