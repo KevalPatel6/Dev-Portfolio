@@ -12,7 +12,7 @@ export default function Resume() {
                 <h1 id='title'>
                     Keval's Resume
                 </h1>
-                <a download='Keval-Patel-Resume' href='src/assets/Keval-Patel-Resume.pdf' id='download'>
+                <a download='Keval-Patel-Resume' href='/Keval-Patel-Resume.pdf' id='download'>
                     <h4 >Download Full Resume</h4>
                 </a>
             </div>
