@@ -6,12 +6,11 @@
     height: 500px;
 }
 
-#profile-pic{
-    align-self: center;
-}
+#profile-pic-container{
+    align-self: center;}
 
-img {
-    height: 16rem; 
+#profile-pic{
+    height: 16rem;
 }
 
 .text-container{

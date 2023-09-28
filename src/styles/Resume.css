@@ -1,0 +1,40 @@
+div {
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#resume-container{
+    width: 100vw;
+}
+
+#title-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#title{
+    width: 50%;
+}
+
+#download{
+    width: 25%;
+    align-self: center;
+    color:rgb(81, 60, 177)
+}
+
+h1 {
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+    width: 50rem;
+}
+
+/* h1:hover{
+    transform-style: flat;} */
+
+ul {
+    list-style: none;
+}
+
