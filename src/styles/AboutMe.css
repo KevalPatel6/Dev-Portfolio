@@ -25,4 +25,8 @@
 #text {
 text-align: justify;
 margin-left: 50px;
+font-weight:bolder;
+font-size: 14pt;
+background-color: white;
+opacity: 80%;
 }
