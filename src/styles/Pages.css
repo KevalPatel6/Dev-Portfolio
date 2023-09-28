@@ -14,3 +14,12 @@ footer {
     width: 100%;
     text-align: right;
   }
+
+.footer-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#stack-overflow{
+    margin-left: 50px;
+}

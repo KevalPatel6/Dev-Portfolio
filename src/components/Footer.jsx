@@ -7,8 +7,8 @@ export default function Footer(){
     return (
         <>
         <div className = 'footer-container'>
-            <h3><a href = 'https://github.com/KevalPatel6'>Github</a></h3>
-            <h3></h3>
+            <h3 id='github'><a href = 'https://github.com/KevalPatel6'>Github</a></h3>
+            <h3 id='stack-overflow'><a href = 'https://stackoverflow.com/users/22648001/kevalp6?tab=profile'>Stack Overflow</a></h3>
         </div>
         </>
     )
