@@ -7,7 +7,7 @@ export default function About() {
         <div>
             <div className='about-container'>
                 <div style={{flexGrow: '1'}} id='profile-pic-container'>
-                    <img id='profile-pic' src='/Portfolio-Pic.jpg' />
+                    <img id='profile-pic' src='/assets/Portfolio-Pic.jpg' />
                 </div>
                 <div style={{flexGrow: '8'}}className='text-container'>
                     <h1 className='text-flex'>About Me</h1>

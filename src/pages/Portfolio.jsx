@@ -8,7 +8,7 @@ import '../styles/Portfolio.css'
             github: 'https://github.com/KevalPatel6/Jeopardy',
             deployedApp: 'https://kevalpatel6.github.io/Jeopardy/',
             description: 'A web application that recreates the reputable Jeopardy Game Show',
-            imgSrc: '/Jeopardy!.PNG',
+            imgSrc: '/assets/Jeopardy!.PNG',
             imgAlt: 'Jeopardy Board' 
         },
         {
@@ -17,7 +17,7 @@ import '../styles/Portfolio.css'
             github: 'https://github.com/KevalPatel6/Event_Planner',
             deployedApp: 'https://event-plannerkas-1ae2bc64599a.herokuapp.com/',
             description: 'Website Application that finds a multitude of events, and allows users to create profiles and save those events',
-            imgSrc: '/Event-Pulse.PNG',
+            imgSrc: '/assets/Event-Pulse.PNG',
             imgAlt: 'Website for Event-Pulse' 
         },
         {
@@ -26,7 +26,7 @@ import '../styles/Portfolio.css'
             github: 'https://github.com/KevalPatel6/Weather-Forecaster',
             deployedApp: 'https://kevalpatel6.github.io/Weather-Forecaster/',
             description: 'A website application that checks the current weather and provides a 5-day forecast for a particular city/location',
-            imgSrc: '/Weather-Dashboard.PNG',
+            imgSrc: '/assets/Weather-Dashboard.PNG',
             imgAlt: 'Weather Website Dashboard' 
         },
         {
@@ -35,7 +35,7 @@ import '../styles/Portfolio.css'
             github: 'https://github.com/KevalPatel6/PWA-Text-Editor',
             deployedApp: 'https://jate-text-editor-app239558-7d971bc2a30b.herokuapp.com/',
             description: 'A text-editor web application that can be installed as an application outside of the browser and used offline',
-            imgSrc: '/Text-Editor.PNG',
+            imgSrc: '/assets/Text-Editor.PNG',
             imgAlt: 'Website of a Text Editor Application' 
         },
         {
@@ -53,7 +53,7 @@ import '../styles/Portfolio.css'
             github: 'https://github.com/KevalPatel6/Coding-Quiz',
             deployedApp: 'https://kevalpatel6.github.io/Coding-Quiz/',
             description: 'A web game application for a coding quiz with multiple choice answers and a highscore list',
-            imgSrc: '/Coding-Quiz.PNG',
+            imgSrc: '/assets/Coding-Quiz.PNG',
             imgAlt: 'Website of Coding Quiz' 
         }
     ];
